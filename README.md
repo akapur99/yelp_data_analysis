@@ -1,8 +1,8 @@
-CS89 Final Project: Analyzing Yelp Review Data
+# CS89 Final Project: Analyzing Yelp Review Data
 
 Abhimanyu Kapur, Nitasha Kochar, Evalyn Li
 
-Note: My (Abhimanyu) contribution to this project was the data sampling, cleaning, pre-processing and classification+visualization.
+Note: My (Abhimanyu) contribution to this project was the data sampling, cleaning, pre-processing and classification+visualization. Most of the data files (including the sampled and processed files) were too large to upload on github, but the original datasets can be found on the [Yelp Dataset Challenge page](https://www.yelp.com/dataset). Using the *business* dataset, you can test our analyses and results. 
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Yelp is a popular platform for crowd-sourcing reviews about local businesses. As
 
 ## Data
 
-Through the Yelp Dataset Challenge, we have access to 192609 businesses and 6.6 million reviews. For the purposes of our project, we wanted to filter this dataset by focusing on the businesses with the most engagement (defined as the most number of user reviews). For this, we took the top 100 businesses from the &#39;business&#39; dataset provided by Yelp. We then used this to filter the reviews from the &#39;reviews&#39; dataset, leaving us with only reviews for the top 100 businesses. Finally, we filtered out all reviews which contained less than 40 characters, so that after cleaning there would be enough text per review for useful data analysis.
+Through the [Yelp Dataset Challenge page](https://www.yelp.com/dataset), we have access to 192609 businesses and 6.6 million reviews. For the purposes of our project, we wanted to filter this dataset by focusing on the businesses with the most engagement (defined as the most number of user reviews). For this, we took the top 100 businesses from the &#39;business&#39; dataset provided by Yelp. We then used this to filter the reviews from the &#39;reviews&#39; dataset, leaving us with only reviews for the top 100 businesses. Finally, we filtered out all reviews which contained less than 40 characters, so that after cleaning there would be enough text per review for useful data analysis.
 
 This left us with a dataset which looked like this:
 
